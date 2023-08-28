@@ -1,10 +1,10 @@
 #user credention in AWS
 provider "aws" {
-  region     = "us-east-2"
+  region     = "us-east-1"
 } 
 
 resource "aws_instance" "prod" {
-  ami           =  "ami-0ccabb5f82d4c9af5"
+  ami           =  "ami-051f7e7f6c2f40dc1"
   instance_type =  "t2.large"
 
 }  
